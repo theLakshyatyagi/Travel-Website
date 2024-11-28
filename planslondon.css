@@ -1,0 +1,51 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+/* Section styles */
+.travel-info,
+.activities-info,
+.dining-info {
+  margin-bottom: 30px;
+}
+
+.travel-info ul,
+.activities-info ul,
+.dining-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.travel-info li,
+.activities-info li,
+.dining-info li {
+  margin: 5px 0;
+}
+
+/* Paragraph styles */
+p {
+  margin: 5px 0;
+}

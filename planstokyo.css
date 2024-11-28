@@ -1,0 +1,49 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+/* Travel info styles */
+.travel-info,
+.meal-info,
+.places-info {
+  margin-bottom: 30px;
+}
+
+.travel-info ul,
+.meal-info ul,
+.places-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.travel-info li,
+.meal-info li,
+.places-info li {
+  margin: 5px 0;
+}
+
+/* Style paragraphs */
+p {
+  margin: 5px 0;
+}
