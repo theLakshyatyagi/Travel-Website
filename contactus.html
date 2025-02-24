@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="contactus.css">
+</head>
+<body>
+<div>
+    <h2 align="center">Contact Us</h2>
+    <form id= "contactus">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+	<label>Any Questions?</label>
+	<textarea id="message" name="message" rows="5" required></textarea><br>
+
+        <button type="button" onclick="contactus()">Submit</button>
+    </form>
+<script src="contactus.js"></script>
+</div>
+</body>
+</html>
